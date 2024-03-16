@@ -19,3 +19,21 @@ a:link, a:visited{ /*link visitado*/
 a:hover, a:active{/*cuando se pocesiona el cursor al link*/
     background-color:burlywood;
 }
+
+caption{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+th{
+    color: antiquewhite;
+    background-color: blue;
+}
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;/*borde de la tabla*/
+   /* border-collapse: collapse; quita una linea de todos los bordes de la tabla*/
+   padding: 5px;
+}
