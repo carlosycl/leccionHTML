@@ -18,22 +18,52 @@ a:link, a:visited{ /*link visitado*/
 
 a:hover, a:active{/*cuando se pocesiona el cursor al link*/
     background-color:burlywood;
+    
 }
 
 caption{
-    color: blue;
-    font-family: 'Times New Roman', Times, serif;
+    color: green;/*color*/
+    font-family: 'Times New Roman', Times, serif;/*fuente*/
+    font-size: 45px;/*tamaño*/
+    line-height:70px;/*espacios parte del titulo*/
 
 }
 th{
     color: antiquewhite;
-    background-color: blue;
+    background-color: rgb(10, 10, 94);
 }
 table{
     width: 100%;
 }
 table, th, td{
     border: 1px solid black;/*borde de la tabla*/
-   /* border-collapse: collapse; quita una linea de todos los bordes de la tabla*/
-   padding: 5px;
+    border-collapse: collapse; /*quita una linea de todos los bordes de la tabla*/
+   padding: 10px;
+   
 }
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+
+class a1{
+ul{
+    list-style-type: none;/*Quita los puntos o biñetas de la lista*/
+    background-color: #457b9d;/*Color del contenedor */
+    overflow: hidden;/**/
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left;/*los coloca en una sola linea*/
+}
+li a{
+    display: block;
+    color: white;
+    text-align: Center;/*centra el texo*/
+    padding: 15px;
+
+}
+
+li a:hover{
+    
+}}
