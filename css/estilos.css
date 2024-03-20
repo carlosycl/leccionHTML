@@ -45,25 +45,3 @@ tr:nth-child(even){
     background-color: #f1faee;
 }
 
-class a1{
-ul{
-    list-style-type: none;/*Quita los puntos o biñetas de la lista*/
-    background-color: #457b9d;/*Color del contenedor */
-    overflow: hidden;/**/
-    margin: 0;
-    padding: 0;
-}
-li{
-    float: left;/*los coloca en una sola linea*/
-}
-li a{
-    display: block;
-    color: white;
-    text-align: Center;/*centra el texo*/
-    padding: 15px;
-
-}
-
-li a:hover{
-    
-}}
