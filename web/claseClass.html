@@ -1,38 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clase class</title>
     <link rel="stylesheet" href="../css/estilo2.css">
 </head>
-
 <body>
-    <!--identificador unico  -->
     <h1 id='titulo_principal'>Lenguajes de programación</h1>
-    <div class="tarjeta">
-        <h2>Java </h2>
+    <!--identificador unico, es recomendable utilizarlo solo una vez -->
+    <div id="Java" class="tarjeta">
+        <h2>Java </h2> <!--identificador creado para redireccionar   -->
         <p><span class="titulo">Creador:</span> James Gosting</p>
     </div>
-    <!--  -->
-    <div class="tarjeta">
+    <div id="Pyton" class="tarjeta"><!--se aplican los estilos a la etiqueta div  -->
         <h2>Pyton</h2>
-        <!--  -->
-        <p><span style="color: red;">Creador:</span>Guido Rossum</p>
+        <p><span style="color: red;">Creador:</span>Guido Rossum</p><!--se aplica es estilo directamente desde html -->
     </div>
-    <div class="tarjeta">
+    <div id="JavaScript" class="tarjeta">
         <h2>JavaScript</h2>
-        <p><span class="titulo"">Creador:</span> Brendan Eich</p>
+        <p><span class="titulo"">Creador:</span> Brendan Eich</p><!--se aplica el estilo desde css  -->
     </div>
     <div>
     <h2>Resumen Lenguajes de Programación</h2>
     <p>www.globalmentoring.com.mx</p>
     </div>
-
-    <br>
-    <a href=" ..//web/index.html">Inicio</a>
-
+    <!--Me redirige al recuadro con el nombre principal Java  -->
+    <a href=" #Java">java</a>
+                <a href="#Pyton">Pyton</a>
+                <a href="#JavaScript">JavaScript</a>
+                <br>
+                <br>
+                <a href=" ..//web/index.html">Inicio</a>
 </body>
-
 </html>
