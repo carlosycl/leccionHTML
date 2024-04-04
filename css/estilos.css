@@ -1,9 +1,11 @@
 h1{
     color:red;
+    
 }
 
 a{
     background-color: aqua;
+    
 }
 
 
@@ -44,4 +46,6 @@ table, th, td{
 tr:nth-child(even){
     background-color: #f1faee;
 }
-
+p{
+    text-align: center;
+}
