@@ -1,7 +1,4 @@
-h1{
-    color: brown;
-    text-align: center; /*Texto centrado*/
-}
+
 h2{
     color: blue;/*Color del texto*/
 }
@@ -12,4 +9,13 @@ p{
     border: 10px solid #800080 ;/*dimensión del borde del cuadro*/
     background-color: #BFFFF2 ;/*color relleno del recuadro*/
     text-align: center;/*Texto centrado*/
+    margin: 10px 80px;
+    padding: 5px;
+}
+.titulo{/*Clases: se le aplican los estilos con la palabra reservada class "".*/
+    color: red;
+}
+#titulo_principal{/*Los identificadores se recomimenta utilizarlo solo una vez*/ 
+    color:#808080;
+    text-align: center;
 }
