@@ -1,6 +1,7 @@
 h1{
     color:red;
     
+    
 }
 
 a{
@@ -48,4 +49,20 @@ tr:nth-child(even){
 }
 p{
     text-align: center;
+}
+
+.logo{
+    display:block;
+    margin:auto;
+    width: 700px;
+    
+}
+.titulo{
+    color: #633974;
+    text-align: center;
+}
+.marco{
+    width: 100%;/*Ocupa el 100% de la pantalla*/
+    height: 500px;/*los pixeles del alto*/
+    border: 5px solid #633974;
 }
