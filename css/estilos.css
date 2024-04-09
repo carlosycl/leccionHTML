@@ -13,10 +13,12 @@ a{
 a:link, a:visited{ /*link visitado*/
     background-color:rgb(127, 168, 168);/*color del contenedor*/
     color: white; /*color del texto del link*/
-    padding: 15px 25px; /*contenedor*/
+    padding: 15px 25px ; /*contenedor*/
     text-align: center; /*centrar texto*/
     text-decoration: none; /*no subrayar el link*/
     display: inline-block; /*no queda montado uno sobre otro*/
+    margin: 2px ;
+
 }
 
 a:hover, a:active{/*cuando se pocesiona el cursor al link*/
