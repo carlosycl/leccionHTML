@@ -8,8 +8,9 @@
 </head>
 <body>
     <form method="post">
-        <h1>Formulario HTML</h1>
+        <h1>Formulario HTML</h1> 
         <label for="nombre">Nombre</label><br>
+        <!--campo requerido y sobre escritura -->
         <input type="text" id="nombre " name="nombre" required="true" placeholder="Escribe el nombre">
         <br>
         <label for="apellido">Apellido</label> <br>
@@ -19,14 +20,16 @@
         <input type="email" id="email " name="email" required="true" placeholder="@gmail">
         <br>
         <label for="telefono">Telefono</label><br>
-        <input type="number" id="number" name="number" required="true" placeholder="Cel"><br>
+        <input type="number" id="number" name="number" placeholder="Cel"><br>
         <br>
+        <!--Para poder seleccionar una sola opcion, el name debe contener el mismo del label-->
         <label>Genero</label><br>
         <input type="radio" name="Genero" id="femenino" value="femenino">
         <label for="femenino">Femenino </label><br>
         <input type="radio" name="Genero" id="Masculino" value="masculino">
         <label for="masculino ">Masculino</label><br>
         <br>
+        <!--Se puede seleccionar mas de una opcion-->
         <label>Genero de musica</label><br>
         <input type="checkbox" name="musica" id="regueton" value="regueton">
         <label for="regueton">Regueton</label><br>
@@ -37,7 +40,7 @@
         <input type="checkbox" name="musica" id="rap" value="rap">
         <label for="rap">Rap</label><br>
         <br>
-        
+        <!--Boton enviar al servidos-->
         <input type="submit" value="Enviar">
         <br><br>
 
