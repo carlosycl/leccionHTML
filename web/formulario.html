@@ -12,6 +12,11 @@
         method post (camufla la informacion que se envia al servidor)-->
     <form action="mi_servidor" target="_blank" autocomplete="off" method="get">
         <fieldset> <!---Etiqueta que le da un marco al formulario-->
+           
+            <!---Se envia el formulario con un id que no se puede modificar por el usuario-->
+            <label for="IdPersona">Id Persona:</label><br>
+            <input type="text" id="IdPersona" name="IdPersona" readonly="true" value="100"><br>
+            
             <label for="nombre">Nombre</label><br>
             <!--campo requerido y sobre escritura -->
             <input type="text" id="nombre " name="nombre" required="true" placeholder="Escribe el nombre">
